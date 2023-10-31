@@ -1,4 +1,4 @@
-import {DocumentType, getModelForClass, index, modelOptions, pre, prop, Severity} from '@typegoose/typegoose'
+import {DocumentType, getModelForClass, index, modelOptions, pre, prop, Ref, Severity} from '@typegoose/typegoose'
 import {nanoid} from "nanoid";
 import argon2 from 'argon2'
 import logger from "../utils/logger.js";
